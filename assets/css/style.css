@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 107px;
+    background-color: #76BEBE;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+
+}
+
+.topoApresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.topoApresentacao div {
+    margin-left: 50px;
+}
+
+.topoApresentacao h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #CF509C;
+}
+
+.topoApresentacao p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.main {
+    padding: 50px;
+    display: flex;
+}
+
+.main div:nth-of-type(1) {
+    flex-basis: 30%;
+}
+
+.main div form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main div label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.main div input {
+    width: 467px;
+    height: 54px;
+    border: none;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    border: 1px solid rgb(229, 227, 227);
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.main button {
+    background: #76BEBE;
+    border-radius: 10px;
+    width: 306px;
+    height: 62px;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 39px;
+    border: none;
+    margin-top: 55px;
+    margin: 55px auto 0;
+}
+
+.main div:nth-of-type(2) {
+    margin-left: 50px;
+    flex-basis: 60%;
+}
+
+.main div table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+.main div table th {
+    background: #3E3D3D;
+    border: 1px solid #767373;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.main div table td {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
